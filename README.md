@@ -25,13 +25,5 @@ Blockchain is used as a trustless lockbox.
 Instead of riders paying the host directly, funds are held in escrow:
 Rider deposits funds -> Smart contract holds funds -> Ride completes -> Host receives payout
 
-Rider deposits funds
-        ↓
-Smart contract holds funds
-        ↓
-Ride happens
-        ↓
-Riders confirm completion
-        ↓
-Smart contract pays the host
+Rider deposits funds -> Smart contract holds funds -> Ride happens -> Riders confirm completion -> Smart contract pays the host
 
